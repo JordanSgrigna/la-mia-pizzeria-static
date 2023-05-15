@@ -14,5 +14,36 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.navbar_shop_name{
+    line-height: 60;
+    vertical-align: middle;
+}
+
+
+
+.navbar_logo_rotation{
+    height: 60px;
+    animation: rotation 10s infinite linear;
+}
+
+.page_bg {
+    background-image: url(~/img/image_processing20200605-5818-j7inc7.jpg);
+    background-repeat: repeat;
+}
+
+.card-height{
+
+}
+
+
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
 }
